@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Text Fields -->
+    <item
+        android:id="@+id/nav_textfields"
+        android:icon="@drawable/ic_text_fields"
+        android:title="@string/nav_textfields"
+        app:iconTint="@color/nav_icon_color"
+        app:itemTextColor="@color/nav_text_color" />
+
+    <!-- Buttons -->
+    <item
+        android:id="@+id/nav_buttons"
+        android:icon="@drawable/ic_buttons"
+        android:title="@string/nav_buttons"
+        app:iconTint="@color/nav_icon_color"
+        app:itemTextColor="@color/nav_text_color" />
+
+    <!-- Selection -->
+    <item
+        android:id="@+id/nav_selection"
+        android:icon="@drawable/ic_selection"
+        android:title="@string/nav_selection"
+        app:iconTint="@color/nav_icon_color"
+        app:itemTextColor="@color/nav_text_color" />
+
+    <!-- Lists -->
+    <item
+        android:id="@+id/nav_lists"
+        android:icon="@drawable/ic_lists"
+        android:title="@string/nav_lists"
+        app:iconTint="@color/nav_icon_color"
+        app:itemTextColor="@color/nav_text_color" />
+
+    <!-- Info -->
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_info"
+        android:title="@string/nav_info"
+        app:iconTint="@color/nav_icon_color"
+        app:itemTextColor="@color/nav_text_color" />
+
+</menu>

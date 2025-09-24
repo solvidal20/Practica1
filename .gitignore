@@ -1,0 +1,25 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+coverage/
+ios/Pods/
+macos/Pods/
+linux/flutter/
+windows/flutter/
+web/.dart_tool/
+
+# Android
+**/local.properties
+**/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+
+# Otros
+flutter_version/
+kotlin_version/
