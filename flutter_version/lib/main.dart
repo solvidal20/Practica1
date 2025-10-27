@@ -1,9 +1,6 @@
-// lib/main.dart
 import 'package:flutter/material.dart';
-
-
-
-import 'models/ui_data.dart';      // Importamos tu clase de datos
+import 'package:provider/provider.dart';
+import 'models/ui_data.dart'; // <-- 1. Importa tu modelo UiData
 import 'pages/home_page.dart';   // Importamos la pantalla principal
 
 void main() {
@@ -24,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // Quita la cinta de "DEBUG" de la esquina superior derecha
+
       debugShowCheckedModeBanner: false,
       title: 'Flutter UI Demo',
       // Define los colores y estilos de la aplicación

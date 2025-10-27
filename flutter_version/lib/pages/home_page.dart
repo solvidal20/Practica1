@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 // Importamos todas las páginas que hemos creado
 import 'buttons_page.dart';
-import 'info_elements_page.dart';
+import 'info_page.dart';
 import 'lists_page.dart';
 import 'selection_elements_page.dart';
 import 'textfields_page.dart';
@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
   // Lista de todas las páginas que se pueden mostrar
   static const List<Widget> _pages = <Widget>[
-    InfoElementsPage(),      // Índice 0
+    InfoPage(),      // Índice 0
     TextFieldsPage(),        // Índice 1
     ButtonsPage(),           // Índice 2
     SelectionElementsPage(), // Índice 3
